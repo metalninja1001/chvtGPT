@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     final headers = {
       'Content-Type': 'application/json',
       'Authorization':
-          'Bearer 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'
+          'Bearer YOUR-OPENAI-API-KEY'
     };
     final body = jsonEncode({
       'model': 'text-davinci-003',
